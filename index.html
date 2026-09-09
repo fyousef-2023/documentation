@@ -76,11 +76,30 @@ body {
 }
 .bob-box b { color: var(--purple); }
 
+.rule-card {
+  background: #fff;
+  border: 0.5px solid #ddd;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+.rule-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--purple);
+  margin-bottom: 6px;
+}
+.rule-desc {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.8;
+}
+
 .shot {
   width: 100%;
   border-radius: 10px;
   border: 0.5px solid #ddd;
-  margin: 10px 0 20px;
+  margin: 16px 0 20px;
   display: block;
 }
 
@@ -97,22 +116,35 @@ body {
 <div class="content">
 
   <div class="intro-card">
-    أي تواصل مع العميل غير موثّق في نظام الـ CRM يُعتبر كأنه لم يحدث. التوثيق هو الوسيلة الوحيدة لحفظ سياق العميل وضمان اتخاذ قرارات دقيقة من قبل جميع أفراد الفريق.
+    أي تواصل مع العميل غير موثّق في نظام الـ CRM يُعتبر كأنه لم يحدث. التوثيق هو الوسيلة الوحيدة لحفظ سياق العميل وضمان اتخاذ قرارات دقيقة من قبل جميع أفراد الفريق وإغلاق حلقة التواصل بفعالية.
   </div>
 
   <div class="section-title">📝 توثيق ملخص التواصل (Sentiment Summary)</div>
   <div class="goal-line">
-    كل مكالمة أو محادثة مع العميل يجب أن تُترجم إلى ملخص واضح في حساب العميل لضمان فهم حالته دون الحاجة للاستفسار الشفهي.
-  </div>
-  <div class="bob-box">
-    في حقل <b>Sentiment Summary</b> يُضاف ملخص تام لما حدث في المكالمة أو المحادثة وما تم الاتفاق عليه، مع إرفاق الروابط ذات الصلة — بشرط أن يكون الملخص <b>واضحًا وموجزًا ودون تكرار</b>.
+    كل مكالمة أو محادثة مع العميل يجب أن تُترجم إلى ملخص واضح في حساب العميل لضمان فهم حالته وانطباعاته دون الفجوات في نقل المعلومات.
   </div>
 
-  <!-- يمكنك استبدال الرابط أدناه بمسار الصورة الخاصة بك -->
+  <div class="bob-box">
+    في حقل <b>Sentiment Summary</b> يُضاف ملخص تام لما حدث في المكالمة أو المحادثة وما تم الاتفاق عليه، مع إرفاق الروابط ذات الصلة — بشرط أن يكون الملخص <b>واضحًا وموجزًا ودون تكرار</b> والتحديث فوراً بعد كل تفاعل.
+  </div>
+
+  <div class="section-title">🎯 معايير الجودة والالتزام (IQS)</div>
+  
+  <div class="rule-card">
+    <div class="rule-title">1. التحديث الفوري والتغطية الشاملة</div>
+    <div class="rule-desc">لوحظ أن عدم التحديث بعد كل تواصل يؤثر على دقة التقارير؛ لذا يتوجب تسجيل الملاحظات وتحديث حالة العميل فور الانتهاء من التفاعل مباشرة.</div>
+  </div>
+
+  <div class="rule-card">
+    <div class="rule-title">2. تقييم الجودة (10 نقاط)</div>
+    <div class="rule-desc">تم إدراج معيار خاص لتوثيق الـ Sentiment في نماذج تقييم الجودة (IQS) بوزن <b>10 نقاط</b> لضمان الانضباط التشغيلي المعتمد.</div>
+  </div>
+
+  <!-- توضيح مكان الصورة -->
   <img class="shot" src="image.png" alt="Sentiment Summary Screenshot">
 
 </div>
 
-<div class="footer">&copy; إعداد: قسم الجودة — فريق نجاح العملاء · رِواء </div>
+<div class="footer">&copy; 2026 إدارة نجاح العملاء</div>
 </body>
 </html>
