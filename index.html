@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الالتزام بالتوثيق</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Segoe UI', 'Tahoma', Arial, sans-serif;
+  background: #f4f0f4;
+  color: #222;
+  direction: rtl;
+  min-height: 100vh;
+}
+:root {
+  --purple: #653165;
+  --teal: #00A4A6;
+  --pur-l: #EFE5EF;
+  --teal-l: #D9F2F2;
+  --teal-d: #007e80;
+  --pur-d: #4e2550;
+}
+.header {
+  background: var(--purple);
+  color: #fff;
+  padding: 24px 32px 18px;
+  border-bottom: 4px solid var(--teal);
+}
+.header h1 { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+.header p { font-size: 12px; opacity: .8; }
+
+.content { max-width: 860px; margin: 0 auto; padding: 28px 20px 60px; }
+
+.intro-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 0.5px solid #ddd;
+  padding: 18px 20px;
+  margin-bottom: 22px;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #333;
+}
+
+.section-title {
+  font-size: 19px;
+  font-weight: 800;
+  color: var(--purple);
+  margin: 30px 0 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 2px solid var(--pur-l);
+  padding-bottom: 10px;
+}
+.section-title:first-child { margin-top: 0; }
+
+.goal-line {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--teal-d);
+  line-height: 1.9;
+  margin: 10px 0 16px;
+}
+
+.bob-box {
+  background: var(--pur-l);
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 16px 0 20px;
+  font-size: 13.5px;
+  line-height: 1.9;
+  color: #3d2140;
+  border-right: 4px solid var(--purple);
+}
+.bob-box b { color: var(--purple); }
+
+.shot {
+  width: 100%;
+  border-radius: 10px;
+  border: 0.5px solid #ddd;
+  margin: 10px 0 20px;
+  display: block;
+}
+
+.footer { text-align: center; font-size: 11px; color: #999; padding: 20px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>الالتزام بالتوثيق</h1>
+  <p>معايير وآلية توثيق التفاعلات مع العملاء</p>
+</div>
+
+<div class="content">
+
+  <div class="intro-card">
+    أي تواصل مع العميل غير موثّق في نظام الـ CRM يُعتبر كأنه لم يحدث. التوثيق هو الوسيلة الوحيدة لحفظ سياق العميل وضمان اتخاذ قرارات دقيقة من قبل جميع أفراد الفريق.
+  </div>
+
+  <div class="section-title">📝 توثيق ملخص التواصل (Sentiment Summary)</div>
+  <div class="goal-line">
+    كل مكالمة أو محادثة مع العميل يجب أن تُترجم إلى ملخص واضح في حساب العميل لضمان فهم حالته دون الحاجة للاستفسار الشفهي.
+  </div>
+  <div class="bob-box">
+    في حقل <b>Sentiment Summary</b> يُضاف ملخص تام لما حدث في المكالمة أو المحادثة وما تم الاتفاق عليه، مع إرفاق الروابط ذات الصلة — بشرط أن يكون الملخص <b>واضحًا وموجزًا ودون تكرار</b>.
+  </div>
+
+  <!-- يمكنك استبدال الرابط أدناه بمسار الصورة الخاصة بك -->
+  <img class="shot" src="image.png" alt="Sentiment Summary Screenshot">
+
+</div>
+
+<div class="footer">&copy; إعداد: قسم الجودة — فريق نجاح العملاء · رِواء </div>
+</body>
+</html>
